@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.sectionBaseBg{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+.imgBg-Cat{
+    background-image: url(img/crycat-crying-cat.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.imgBg-HackerMan{
+    background-image: url(img/corsair-frenchie.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgBg-emoji{
+    background-image: url(img/6zyx4i.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heroImg {
+    border-radius: 100%;
+}
